@@ -6,7 +6,7 @@
   "author": "hujiao",
   "license": "MIT",
   "scripts": {
-      "precommit": "node index.js"
+      "precommit": "node index.js; git add .;"
   },
   "dependencies": {
     "glob": "^7.1.1"
