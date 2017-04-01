@@ -34,6 +34,8 @@ for (let item of Object.keys(contentObj)) {
     }
 }
 
+content += `\r\n\r\n[关于](./about.md)`;
+
 const readme = path.resolve(__dirname, './README.md');
 
 fs.writeFileSync(readme, content, 'utf8');
