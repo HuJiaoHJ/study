@@ -25,10 +25,10 @@ for (let item of markdowns) {
     contentObj[title].push(item);
 }
 
-let content = `#### Study Notes`;
+let content = `## Study Notes`;
 
 for (let item of Object.keys(contentObj)) {
-    content += `\r\n\r\n##### ${item} \r\n\r\n`;
+    content += `\r\n\r\n#### ${item} \r\n\r\n`;
     for (let i of contentObj[item]) {
         content += `* [${i.split('_')[1].replace(/\.md$/, '')}](./md/${i}) \r\n`;
     }
