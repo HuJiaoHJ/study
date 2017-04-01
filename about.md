@@ -17,6 +17,6 @@ ok，readme是可以生成了，但是每次提交之前，都需要运行一下
 }
 ```
 
-这样，在`git commit -m "xxx"`时，就会执行以下index.js，生成的README.md也通过`git add .`添加到了暂存区
+这样，在`git commit -m "xxx"`时，就会执行一下index.js，生成的README.md也通过`git add .`添加到了暂存区
 
 可以正常支持git push，将修改提交到远程啦~~~
