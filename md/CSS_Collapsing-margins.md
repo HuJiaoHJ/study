@@ -51,5 +51,12 @@ https://www.w3.org/TR/CSS22/box.html#collapsing-margins
 * 一个 'height' 为 'auto' 并且 'min-height' 为 '0'的常规文档流元素的 margin-bottom 会与其最后一个常规文档流子元素的 margin-bottom 折叠，条件为父元素不包含 padding 和 border ，子元素的 margin-bottom 不与包含 clearance 的 margin-top 折叠。
 * 一个不包含border-top、border-bottom、padding-top、padding-bottom的常规文档流元素，并且其 'height' 为 0 或 'auto'， 'min-height' 为 '0'，其里面也不包含行盒(line box)，其自身的 margin-top 和 margin-bottom 会折叠。
 
+其他：
+
+* 空隙（clearance）是通过clear:both 清楚浮动之后产生的
+* 闭合浮动的元素的border-top会紧贴着相应的浮动元素的margin-bottom
+* 闭合浮动不能使浮动元素回到原来的BFC中
+* 块级盒子的display属性是一下三个值：block、table、list-item，其他所有值都是非块级盒子的块级容器，会创建新的BFC
+
 [DEMO](http://jsbin.sankuai.com/ruy/edit?html,css,output)
 [DEMO](http://jsbin.sankuai.com/nur/edit?html,css,output)
