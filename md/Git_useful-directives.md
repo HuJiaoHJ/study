@@ -1,5 +1,7 @@
 #### Git有用命令
 
+https://git-scm.com/book/zh/v2/
+
 * `git blame [file]` 查看某个文件中每行代码最近一次的修改作者信息，其他：
     * -l 显示长hash
     * -t 显示时间戳

@@ -22,6 +22,11 @@
 * [dateArray](./md/Calendar_dateArray.md) 
 
 
+#### CSS 
+
+* [Collapsing-margins](./md/CSS_Collapsing-margins.md) 
+
+
 #### ESLint 
 
 * [Configuration](./md/ESLint_Configuration.md) 
@@ -29,6 +34,8 @@
 
 #### Git 
 
+* [config](./md/Git_config.md) 
+* [help](./md/Git_help.md) 
 * [useful-directives](./md/Git_useful-directives.md) 
 
 
