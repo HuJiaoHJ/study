@@ -59,4 +59,5 @@ https://www.w3.org/TR/CSS22/box.html#collapsing-margins
 * 块级盒子的display属性是一下三个值：block、table、list-item，其他所有值都是非块级盒子的块级容器，会创建新的BFC
 
 [DEMO](http://jsbin.sankuai.com/ruy/edit?html,css,output)
+
 [DEMO](http://jsbin.sankuai.com/nur/edit?html,css,output)
