@@ -2,7 +2,11 @@
 
 #### 规范：
 
+https://www.w3.org/TR/CSS22/box.html#margin-properties
+
 ![margin](./assets/margin-percentages.png)
+
+https://www.w3.org/TR/CSS22/box.html#padding-properties
 
 ![padding](./assets/padding-percentages.png)
 
@@ -40,7 +44,7 @@ div {
 
 无法给容器设置`min-height`，因为max-height只能限制内容高度，而不能限制padding，即使设置`box-sizing: border-box;`依旧无效
 
-###### 利用子元素/伪元素设置margin/padding撑高容器
+###### 方案二：利用子元素/伪元素设置margin/padding撑高容器
 
 做法：设置子元素/伪元素的margin/padding-top/bottom为100%，使得容器实际高度等于容器的宽度，建议使用伪元素。这样容器本身就是有高度了，可以设置`max-height`有效
 
@@ -103,3 +107,8 @@ width: 50%;
 ```
 
 [DEMO](http://jsbin.sankuai.com/quc/edit?html,css,output)
+
+##### 参考
+
+* https://segmentfault.com/a/1190000004231995
+* https://idiotwu.me/css-responsive-square/
