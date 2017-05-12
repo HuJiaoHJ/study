@@ -54,7 +54,7 @@ https://www.w3.org/TR/CSS22/box.html#collapsing-margins
 其他：
 
 * 空隙（clearance）是通过clear:both 清楚浮动之后产生的
-* 闭合浮动的元素的border-top会紧贴着相应的浮动元素的margin-bottom
+* 闭合浮动的元素的border-top会紧贴着相应的浮动元素的margin-bottom，浮动闭合元素的位置与该元素的margin-top无关了，只与响应的浮动元素的margin-bottom的位置有关
 * 闭合浮动不能使浮动元素回到原来的BFC中
 * 块级盒子的display属性是一下三个值：block、table、list-item，其他所有值都是非块级盒子的块级容器，会创建新的BFC
 
