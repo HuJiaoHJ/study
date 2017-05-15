@@ -19,7 +19,11 @@
     ```
     * 如果font-size设置了em单位，会逐级向上乘 [DEMO](http://jsbin.sankuai.com/qepoqiyepu/edit?html,css,output)
 * rem
-    * 相对于根元素<html>字体大小
+    * 相对于根元素<html>字体大小，如果<html>元素font-size设置为100px，则：
+    ```
+    1rem = 100px;
+    1px = 0.01rem;
+    ```
     * 移动端开发经常需要使用这个单位
 * ex
     * 当前字体的x-height，即当前字体的小写x的高度
