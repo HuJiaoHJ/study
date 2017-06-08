@@ -47,8 +47,8 @@
 
 #### JS 
 
-* [event loop](./md/JS_event loop.md) 
-* [MDN study notes](./md/JS_MDN study notes.md) 
+* [event-loop](./md/JS_event-loop.md) 
+* [MDN-study-notes](./md/JS_MDN-study-notes.md) 
 
 
 #### NPM 
