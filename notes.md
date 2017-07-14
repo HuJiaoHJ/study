@@ -51,9 +51,19 @@
 * [MDN-study-notes](./md/JS_MDN-study-notes.md) 
 
 
+#### Node 
+
+* [mysql-install](./md/Node_mysql-install.md) 
+
+
 #### NPM 
 
 * [npm](./md/NPM_npm.md) 
+
+
+#### Shell 
+
+* [study](./md/Shell_study.md) 
 
 
 #### Webpack 
