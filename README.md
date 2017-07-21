@@ -6,6 +6,8 @@
 
 #### [CentOS 6.5 安装Node环境](https://github.com/HuJiaoHJ/study/issues/3)
 
+#### [RabbitMQ 安装](https://github.com/HuJiaoHJ/study/issues/4)
+
 ## 成长笔记
 
 #### [Notes](./notes.md)

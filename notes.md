@@ -66,6 +66,11 @@
 * [npm](./md/NPM_npm.md) 
 
 
+#### RabbitMQ 
+
+* [install](./md/RabbitMQ_install.md) 
+
+
 #### Shell 
 
 * [study](./md/Shell_study.md) 
