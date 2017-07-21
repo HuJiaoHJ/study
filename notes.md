@@ -22,6 +22,11 @@
 * [dateArray](./md/Calendar_dateArray.md) 
 
 
+#### CentOS6.5 
+
+* [installs](./md/CentOS6.5_installs.md) 
+
+
 #### CSS 
 
 * [calc](./md/CSS_calc.md) 
